@@ -1,0 +1,17 @@
+--- kbirthday-0.7.3/src/kbirthday.desktop~	2004-10-31 15:25:04.000000000 +0100
++++ kbirthday-0.7.3/src/kbirthday.desktop	2004-12-13 19:36:44.244967088 +0100
+@@ -4,8 +4,12 @@
+ X-KDE-UniqueApplet=true
+ Encoding=UTF-8
+ Icon=kbirthday
++Exec=kbirthday
+ Comment=KBirthday reminds you of birthdays and anniversaries
+ Comment[de]=KBirthday erinnert an Geburtstage und JubilДen
+ Comment[fr]=KBirthday vous rappelle la date des anniversaires О©╫partir de votre carnet d'adresses de KDE.
+ Comment[es]=KBirthday le recuerda los cumpleaц╠os y aniversarios de su libreta de direcciones de KDE.
+-Comment[ru]=KBirthday напоминает о днях рождениях и годовщинах из адресной книги KDE.
+\ No newline at end of file
++Comment[pl]=KBirthday przypomina o urodzinach i rocznicach
++Comment[ru]=KBirthday напоминает о днях рождениях и годовщинах из адресной книги KDE.
++Categories=Qt;KDE;Office;Calendar;
++# vi: set encoding=80
