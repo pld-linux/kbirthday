@@ -9,6 +9,7 @@ Source0:	http://www.gfai.de/~jaham/download/%{name}-%{version}.tar.gz
 # Source0-md5:	997b6003772a67042cfdf9a45bdb2b19
 Patch0:		%{name}-desktop.patch
 URL:		http://www.gfai.de/~jaham/
+BuildRequires:	automake
 BuildRequires:	kdelibs-devel
 Requires:	kdebase-desktop
 Requires:	kdebase-kaddressbook
@@ -43,7 +44,7 @@ KDE.
 %patch0 -p1
 
 %build
-cp -f /usr/share/automake/config.sub .
+cp -f /usr/share/automake/config.sub admin
 %configure
 %{__make}
 
