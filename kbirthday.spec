@@ -12,7 +12,7 @@ URL:		http://www.gfai.de/~jaham/
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel
 Requires:	kdebase-desktop
-Requires:	kdebase-kaddressbook
+Requires:	kdepim-kaddressbook
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
