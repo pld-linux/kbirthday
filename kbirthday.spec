@@ -24,7 +24,7 @@ KBirthday przypomina ci o urodzinach i rocznicach osób których dane s±
 w twojej ksi±¿ce adresowej KDE.
 
 %description -l de
-KBirthday erinnert an Geburtstage und Jubilï¿½n aus dem KDE
+KBirthday erinnert an Geburtstage und Jubiläen aus dem KDE
 Adressbuch.
 
 %description -l fr
