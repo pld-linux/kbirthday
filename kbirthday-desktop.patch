@@ -6,12 +6,13 @@
  Icon=kbirthday
 +Exec=kbirthday
  Comment=KBirthday reminds you of birthdays and anniversaries
- Comment[de]=KBirthday erinnert an Geburtstage und JubilДen
+-Comment[de]=KBirthday erinnert an Geburtstage und JubilДen
++Comment[de]=KBirthday erinnert an Geburtstage und Jubilц╓en
  Comment[fr]=KBirthday vous rappelle la date des anniversaires О©╫partir de votre carnet d'adresses de KDE.
  Comment[es]=KBirthday le recuerda los cumpleaц╠os y aniversarios de su libreta de direcciones de KDE.
 -Comment[ru]=KBirthday напоминает о днях рождениях и годовщинах из адресной книги KDE.
 \ No newline at end of file
 +Comment[pl]=KBirthday przypomina o urodzinach i rocznicach
-+Comment[ru]=KBirthday напоминает о днях рождениях и годовщинах из адресной книги KDE.
++Comment[ru]=KBirthday п╫п╟п©п╬п╪п╦п╫п╟п╣я┌ п╬ п╢п╫я▐я┘ я─п╬п╤п╢п╣п╫п╦я▐я┘ п╦ пЁп╬п╢п╬п╡я┴п╦п╫п╟я┘ п╦п╥ п╟п╢я─п╣я│п╫п╬п╧ п╨п╫п╦пЁп╦ KDE
 +Categories=Qt;KDE;Office;Calendar;
 +# vi: set encoding=80
