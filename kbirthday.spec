@@ -1,5 +1,5 @@
 Summary:	Remember your birthdays and anniversaries
-Summary(pl):	Przypomina twoje urodzinay i rocznice
+Summary(pl):	Przypominanie o urodzinach i rocznicach
 Name:		kbirthday
 Version:	0.7.3
 Release:	1
@@ -19,21 +19,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 KBirthday reminds you of birthdays and anniversaries from your KDE
 addressbook.
 
-%description -l pl
-KBirthday przypomina ci o urodzinach i rocznicach osÛb ktÛrych dane s±
-w twojej ksi±øce adresowej KDE.
-
 %description -l de
 KBirthday erinnert an Geburtstage und Jubil‰en aus dem KDE
 Adressbuch.
+
+%description -l es
+KBirthday le recuerda los cumpleaÒos y aniversarios de su libreta de
+direcciones de KDE.
 
 %description -l fr
 KBirthday vous rappelle la date des anniversaires ÔøΩpartir de votre
 carnet d'adresses de KDE.
 
-%description -l es
-KBirthday le recuerda los cumplea√±os y aniversarios de su libreta de
-direcciones de KDE.
+%description -l pl
+KBirthday przypomina o urodzinach i rocznicach osÛb ktÛrych dane s± w
+ksi±øce adresowej KDE.
 
 %description -l ru
 KBirthday Œ¡–œÕ…Œ¡≈‘ œ ƒŒ—» “œ÷ƒ≈Œ…—» … «œƒœ◊›…Œ¡» …⁄ ¡ƒ“≈”Œœ  ÀŒ…«…
@@ -64,9 +64,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog INSTALL NEWS README TODO
+%doc AUTHORS ChangeLog
+%attr(755,root,root) %{_libdir}/libkbirthday.so
 %{_libdir}/libkbirthday.la
-%{_libdir}/libkbirthday.so
 %{_desktopdir}/kbirthday.desktop
 %{_iconsdir}/hicolor/16x16/apps/kbirthday.png
 %{_iconsdir}/hicolor/32x32/apps/kbirthday.png
