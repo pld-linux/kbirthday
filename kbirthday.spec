@@ -35,7 +35,7 @@ carnet d'adresses de KDE.
 KBirthday le recuerda los cumpleaц╠os y aniversarios de su libreta de
 direcciones de KDE.
 
-%description -l ru_RU.KOI8-R
+%description -l ru
 KBirthday напоминает о днях рождениях и годовщинах из адресной книги
 KDE.
 
