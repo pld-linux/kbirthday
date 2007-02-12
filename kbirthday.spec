@@ -1,5 +1,5 @@
 Summary:	Remember your birthdays and anniversaries
-Summary(pl):	Przypominanie o urodzinach i rocznicach
+Summary(pl.UTF-8):   Przypominanie o urodzinach i rocznicach
 Name:		kbirthday
 Version:	0.7.3
 Release:	1
@@ -19,24 +19,24 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 KBirthday reminds you of birthdays and anniversaries from your KDE
 addressbook.
 
-%description -l de
-KBirthday erinnert an Geburtstage und Jubiläen aus dem KDE
+%description -l de.UTF-8
+KBirthday erinnert an Geburtstage und JubilÃ¤en aus dem KDE
 Adressbuch.
 
-%description -l es
-KBirthday le recuerda los cumpleaños y aniversarios de su libreta de
+%description -l es.UTF-8
+KBirthday le recuerda los cumpleaÃ±os y aniversarios de su libreta de
 direcciones de KDE.
 
-%description -l fr
-KBirthday vous rappelle la date des anniversaires ï¿½partir de votre
+%description -l fr.UTF-8
+KBirthday vous rappelle la date des anniversaires Ã¯Â¿Â½partir de votre
 carnet d'adresses de KDE.
 
-%description -l pl
-KBirthday przypomina o urodzinach i rocznicach osób których dane s± w
-ksi±¿ce adresowej KDE.
+%description -l pl.UTF-8
+KBirthday przypomina o urodzinach i rocznicach osÃ³b ktÃ³rych dane sÄ… w
+ksiÄ…Å¼ce adresowej KDE.
 
-%description -l ru
-KBirthday ÎÁĞÏÍÉÎÁÅÔ Ï ÄÎÑÈ ÒÏÖÄÅÎÉÑÈ É ÇÏÄÏ×İÉÎÁÈ ÉÚ ÁÄÒÅÓÎÏÊ ËÎÉÇÉ
+%description -l ru.UTF-8
+KBirthday Ğ½Ğ°Ğ¿Ğ¾Ğ¼Ğ¸Ğ½Ğ°ĞµÑ‚ Ğ¾ Ğ´Ğ½ÑÑ… Ñ€Ğ¾Ğ¶Ğ´ĞµĞ½Ğ¸ÑÑ… Ğ¸ Ğ³Ğ¾Ğ´Ğ¾Ğ²Ñ‰Ğ¸Ğ½Ğ°Ñ… Ğ¸Ğ· Ğ°Ğ´Ñ€ĞµÑĞ½Ğ¾Ğ¹ ĞºĞ½Ğ¸Ğ³Ğ¸
 KDE.
 
 %prep
