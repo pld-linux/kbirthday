@@ -1,5 +1,5 @@
 Summary:	Remember your birthdays and anniversaries
-Summary(pl.UTF-8):   Przypominanie o urodzinach i rocznicach
+Summary(pl.UTF-8):	Przypominanie o urodzinach i rocznicach
 Name:		kbirthday
 Version:	0.7.3
 Release:	1
