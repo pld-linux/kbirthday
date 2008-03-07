@@ -68,5 +68,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/libkbirthday.so
 %{_libdir}/libkbirthday.la
 %{_desktopdir}/kbirthday.desktop
-%{_iconsdir}/hicolor/16x16/apps/kbirthday.png
-%{_iconsdir}/hicolor/32x32/apps/kbirthday.png
+%{_iconsdir}/hicolor/*x*/apps/kbirthday.png
